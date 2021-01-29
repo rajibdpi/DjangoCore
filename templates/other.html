@@ -1,0 +1,8 @@
+{% extends 'app.html' %}
+
+{% block body %}
+<h1>I'm from mainapp other page</h1>
+    {% for other in otherList %}
+        <p>{{other}}</p>
+    {% endfor %}
+{% endblock body %}
