@@ -1,0 +1,7 @@
+--core
+    -settings
+    -urls.py
+    -views.py
+    -wsgi.py
+ --mainapp
+    -
