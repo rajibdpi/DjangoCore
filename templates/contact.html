@@ -1,7 +1,9 @@
 <!--Comment-->
 {% extends 'app.html' %}
+{% load static %}
     {% block body %}
     <h1>Conatct page</h1>
+<img src="{% static 'image/diu.jpg' %}">
     <form method='POST'>
     {% csrf_token %}
         <div class="form-group">

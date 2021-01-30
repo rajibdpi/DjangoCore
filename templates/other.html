@@ -1,8 +1,9 @@
 {% extends 'app.html' %}
-
+{% load static %}
 {% block body %}
 <h1>I'm from mainapp other page</h1>
     {% for other in otherList %}
         <p>{{other}}</p>
     {% endfor %}
+<img src="{% static 'image/diu.jpg' %}">
 {% endblock body %}
